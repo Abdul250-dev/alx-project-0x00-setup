@@ -25,3 +25,7 @@ File: components/Card.tsx, components/Pill.tsx, README.md
 # 4. Using components
 
 Objective: Breaking your application down into components, does not only make you code modular and maintainable, but also speeds up development. Once a component is created it can be used in more than one place. The content of the component can be made dynamic, leverage on powerful features like props, interfaces, and types in typescript. For this task let’s make use of the Card and Pill components we created from the previous task.
+
+# 5. Typing your functional components
+
+Objective: Component design can take some getting used to. In your applications and similar other applications, it is important to identify which part of your application can be broken down into smaller components. And how that smaller component can be reused. To reuse a component effectively, we need to make it dynamic by passing some props to that container.
