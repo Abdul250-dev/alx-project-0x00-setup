@@ -21,3 +21,7 @@ This component can contain a bunch of files related to the components to be work
 Components created in this directory can be used in almost every other file in your project. But it is important to use it right.
 
 File: components/Card.tsx, components/Pill.tsx, README.md
+
+# 4. Using components
+
+Objective: Breaking your application down into components, does not only make you code modular and maintainable, but also speeds up development. Once a component is created it can be used in more than one place. The content of the component can be made dynamic, leverage on powerful features like props, interfaces, and types in typescript. For this task let’s make use of the Card and Pill components we created from the previous task.
