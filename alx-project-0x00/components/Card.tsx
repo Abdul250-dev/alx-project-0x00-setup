@@ -1,6 +1,4 @@
 import Image from "next/image";
-import HOUSE_IMAGE from "@/public/assets/house.png";
-import STAR_IMAGE from "@/public/assets/star.png";
 import React from "react";
 import Pill from "./Pill";
 
@@ -9,7 +7,7 @@ const Card: React.FC = () => {
     <div className="h-[422px] w-[378.56px] cursor-pointer hover:shadow-md hover:rounded-lg ">
       <Image
         className="rounded-lg"
-        src={HOUSE_IMAGE}
+        src="/assets/images/house.png"
         width={378.56}
         height={299.37}
         alt="house image"
@@ -29,7 +27,12 @@ const Card: React.FC = () => {
           </p>
         </div>
         <div className="flex items-center">
-          <Image src={STAR_IMAGE} alt="star" />
+          <Image
+            src="/assets/images/star.png"
+            alt="star"
+            width={20}
+            height={20}
+          />
           <p className=" font-medium text=[17px] ml-2">4.76</p>
         </div>
       </div>
@@ -63,7 +66,7 @@ const Card: React.FC = () => {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <g clip-path="url(#clip0_8_604)">
+              <g clipPath="url(#clip0_8_604)">
                 <path
                   d="M1.10254 12.1843V13.5573C1.10254 15.1441 2.26869 16.4635 3.78896 16.7037V17.7188H4.78733V16.7429H13.1234V17.7188H14.1218V16.7037C15.6421 16.4635 16.8082 15.1441 16.8082 13.5573V12.1843H1.10254Z"
                   fill="#131212"
@@ -84,7 +87,6 @@ const Card: React.FC = () => {
                 </clipPath>
               </defs>
             </svg>
-
             <p className="ml-1 text-[12.95px] font-medium">2</p>
           </div>
           <div className="flex items-center">
@@ -100,7 +102,6 @@ const Card: React.FC = () => {
                 fill="#131212"
               />
             </svg>
-
             <p className="ml-1 text-[12.95px] font-medium">2-4</p>
           </div>
         </div>
