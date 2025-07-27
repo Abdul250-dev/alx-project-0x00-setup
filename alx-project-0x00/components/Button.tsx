@@ -1,12 +1,6 @@
 import React from "react";
 import clsx from "clsx";
-
-interface ButtonProps {
-  children: React.ReactNode;
-  size?: "small" | "medium" | "large";
-  shape?: "rounded-sm" | "rounded-md" | "rounded-full";
-  className?: string;
-}
+import { ButtonProps } from "@/interfaces";
 
 const sizeClasses = {
   small: "px-3 py-1 text-sm",
