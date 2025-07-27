@@ -1,40 +1,23 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# alx-project-0x00-setup
 
-## Getting Started
+# 1. Setting up project directories
 
-First, run the development server:
+Objective: Next.js framework provides a better folder structure for your application. Understanding the essence of these projects will help you better organize your assets and components.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+added File: components/Card.tsx, components/Pill.tsx, interfaces/index.ts
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 2. Basic Routing
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Objective: Next.js provides two types of routing [App Router and Pages Router]. You will realize from** Task 0**, we choose the option [No] for App Router. This is because we want to stick to a more simple routing in next.js, In future we will look more into App Router. This task will allow us to explore a simple routing in next.js. This requires no configuration whatsoever.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+File: pages/landing.tsx, pages/about.tsx, interfaces/index.ts, README.md
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+# 3. Rendering Components
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Objectives: Building a react application allows developers to identify patterns from their project mockups, design components that can be reusable across one or more pages or event components. This prevents code repetition and leverages on props to make such components dynamic.
 
-## Learn More
+The components directory we created from previous tasks can be used in this manner. (N:B The name can anything you or your team prefer, but it is advisable to use common standardized names)
+This component can contain a bunch of files related to the components to be worked on or even grouped together under a unified name.
+Components created in this directory can be used in almost every other file in your project. But it is important to use it right.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+File: components/Card.tsx, components/Pill.tsx, README.md
